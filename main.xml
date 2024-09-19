@@ -1,0 +1,24 @@
+<mod name="The Old Silent Killer Suppressor" author="0x008Y1E00" min_lib_ver="3.38" priority="1">
+	<AssetUpdates id="-1" version="1.0" provider="modworkshop"/>
+	<Localization directory="loc" default="english.txt">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+
+	<WeaponMod id="wpn_fps_upg_ns_shot_thick2015" based_on="wpn_fps_upg_ns_shot_thick" name_id = "bm_wp_upg_ns_shot_thick2015" texture_bundle_folder="mods" type="barrel_ext" sub_type="silencer" inherit_weapons="true" inherit_adds="true" inherit_override="true" inherit_parts_override="true" inherit_parts_forbids="true" unit="units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick2015" droppable="true" is_a_unlockable="true" ver="2">
+		<stats damage="0"/>
+	</WeaponMod>
+
+	<AddFiles directory="assets">
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_ns_shot_thick2015"/>
+		
+		<material_config path="units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick2015"/>
+		<material_config path="units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick2015_thq"/>
+		<material_config path="units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick2015_cc"/>
+		<material_config path="units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick2015_cc_thq"/>
+		
+		<cooked_physics path="units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick2015"/>	
+		<model path="units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick2015"/>
+		<object path="units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick2015"/>
+		<unit path="units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick2015"/>
+	</AddFiles>
+</mod>
