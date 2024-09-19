@@ -1,3 +1,5 @@
+# [PAYDAY 2] The Old Silent Killer Suppressor
+
 The mod adds restored the Old Silent Killer suppressor which was changed in 2015 year.
 
 Optional video tutorial for installing SuperBLT, BeardLib, and mod_overrides mods: https://youtu.be/rin_sjSJIkg
